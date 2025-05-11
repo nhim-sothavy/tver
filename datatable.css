@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins"!important;
+}
+#back-home{
+    text-align: left;
+    margin-top: 20px;
+
+}
+#btn-back{
+    background-color: skyblue;
+    color: #111;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px!important;
+    font-size: 15px;
+}
+#btn-back:hover{
+    background-color: rgb(27, 173, 231);
+}
+.content{
+    text-align: center;
+    color:#fff;
+    
+}
+.bg-text-content{
+    background-color: blue;
+    padding: 10px 0px;
+}
+
+th{
+    background-color: skyblue!important;
+    text-align: left!important;
+    padding: 15px 20px!important;
+}
+.dt-type-numeric{
+    text-align: left!important;
+    /* padding: 0px 20px!important; */
+}
+td{
+    text-align: left!important;
+    padding: 15px 20px!important;
+}
+.dt-column-order{
+    display: none!important;
+
+}
+#back-back .fa-caret-left{
+    transform: translateX(0px);
+}
+#back-back .fa-caret-left:hover{
+    transform: translateX(-1px);
+    transition: transform 0.3s;
+}
+.tooltip-inner {
+      background-color: #f39c12 !important; /* Change tooltip background color */
+      color: #fff !important; /* Change text color */
+    }
+    .tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+      border-bottom-color: #f39c12 !important; /* Change bottom arrow color */
+    }
